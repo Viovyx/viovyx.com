@@ -73,7 +73,7 @@ a.wip-info:hover {
     padding-bottom: calc(0.75em - 2px);
     padding-left: calc(1.5em - 2px);
     text-decoration: none;
-    box-shadow: var(--boxshadow) !important;
+    box-shadow: var(--boxshadow);
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -81,4 +81,7 @@ a.wip-info:hover {
     background-color: var(--color--background);
     border-color: var(--color--primary);
     color: var(--color--primary);
+}
+.button-box:active {
+    box-shadow: none;
 }
