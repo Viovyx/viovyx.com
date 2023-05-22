@@ -1,0 +1,29 @@
+/*Font imports*/
+@font-face {
+    font-family: uni-05_53;
+    src: url(../fonts/uni05_53.woff);
+}
+@font-face {
+    font-family: mono-reg;
+    src: url(../fonts/DMMono-Regular.woff);
+}
+@font-face {
+    font-family: mono-ita;
+    src: url(../fonts/DMMono-Italic.woff);
+}
+@font-face {
+    font-family: mono-light;
+    src: url(../fonts/DMMono-Light.woff);
+}
+@font-face {
+    font-family: mono-light-ita;
+    src: url(../fonts/DMMono-LightItalic.woff);
+}
+@font-face {
+    font-family: mono-med;
+    src: url(../fonts/DMMono-Medium.woff);
+}
+@font-face {
+    font-family: mono-med-ita;
+    src: url(../fonts/DMMono-MediumItalic.woff);
+}
