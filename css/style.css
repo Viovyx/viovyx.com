@@ -1,3 +1,16 @@
+/* Site wide style */
+*{
+    margin: 0px;
+}
+
+/* Info text */
+.wip-info {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+    font-family: mono-med;
+}
+
 /*Tests for fonts*/
 .uni {
     font-family: uni-05_53;
@@ -19,25 +32,4 @@
 }
 .mono-med-ita{
     font-family: mono-med-ita;
-}
-
-/* Button test */
-button {
-    background-color: #ffa3fd;
-    border-radius: 0;
-    border-color: #e384ff;
-    border-width: 2px;
-    border-style: solid;
-    color: #191825;
-    font-family: uni-05_53;
-    font-size: var(--wp--preset--font-size--small);
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.7;
-    padding-top: calc(0.75em - 2px);
-    padding-right: calc(1.5em - 2px);
-    padding-bottom: calc(0.75em - 2px);
-    padding-left: calc(1.5em - 2px);
-    text-decoration: none;
-    box-shadow: var(--wp--custom--shadow) !important;
 }
