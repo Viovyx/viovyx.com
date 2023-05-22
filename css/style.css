@@ -1,17 +1,38 @@
+:root {
+    --color--primary: #e384ff;
+    --color--foreground: #ffa3fd;
+    --color--background: #191825;
+    --boxshadow: 5px 5px 0px -2px var(--color--background), 5px 5px var(--color--foreground);
+}
+
 /* Site wide style */
 *{
-    margin: 0px;
+    background-color: var(--color--background);
+    color: var(--color--foreground);
 }
 
 /* Info text */
 .wip-info {
     background-color: #ffcc00;
     padding: 20px;
+    margin: -8px;
     text-align: center;
     font-family: mono-med;
+    color: var(--color--background);
+}
+a.wip-info {
+    text-align: unset;
+    padding: 0%;
+    margin: 0%;
+}
+a.wip-info:hover {
+    text-align: unset;
+    padding: 0%;
+    margin: 0%;
+    color: white;
 }
 
-/*Tests for fonts*/
+/* Tests for fonts */
 .uni {
     font-family: uni-05_53;
 }
@@ -32,4 +53,32 @@
 }
 .mono-med-ita{
     font-family: mono-med-ita;
+}
+
+/* Test for button */
+.button-box {
+    background-color: var(--color--foreground);
+    border-radius: 0;
+    border-color: var(--color--primary);
+    border-width: 2px;
+    border-style: solid;
+    color: var(--color--background);
+    font-family: uni-05_53;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.7;
+    padding-top: calc(0.75em - 2px);
+    padding-right: calc(1.5em - 2px);
+    padding-bottom: calc(0.75em - 2px);
+    padding-left: calc(1.5em - 2px);
+    text-decoration: none;
+    box-shadow: var(--boxshadow) !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.button-box:hover {
+    background-color: var(--color--background);
+    border-color: var(--color--primary);
+    color: var(--color--primary);
 }
