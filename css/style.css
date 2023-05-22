@@ -2,7 +2,7 @@
     --color--primary: #e384ff;
     --color--foreground: #ffa3fd;
     --color--background: #191825;
-    --boxshadow: 5px 5px 0px -2px var(--color--background), 5px 5px var(--color--foreground);
+    --boxshadow: 7px 7px 0px -2px var(--color--background), 7px 7px var(--color--foreground);
 }
 
 /* Site wide style */
@@ -66,13 +66,11 @@ a.wip-info:hover {
     font-family: uni-05_53;
     font-size: 1rem;
     font-style: normal;
-    font-weight: 500;
     line-height: 1.7;
     padding-top: calc(0.75em - 2px);
     padding-right: calc(1.5em - 2px);
     padding-bottom: calc(0.75em - 2px);
     padding-left: calc(1.5em - 2px);
-    text-decoration: none;
     box-shadow: var(--boxshadow);
     text-transform: uppercase;
     font-weight: bold;
@@ -84,4 +82,29 @@ a.wip-info:hover {
 }
 .button-box:active {
     box-shadow: none;
+}
+
+/* Pixel text block test */
+.pixel-text-block {
+    box-shadow: var(--boxshadow);
+    border-radius: 0;
+    border-color: var(--color--primary);
+    border-width: 2px;
+    border-style: solid;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+    margin-top: 20px;
+}
+
+/* Pixel image block test */
+.pixel-image-block {
+    box-shadow: var(--boxshadow);
+    border-radius: 0;
+    border-color: var(--color--primary);
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    margin-top: 20px;
 }

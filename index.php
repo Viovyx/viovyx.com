@@ -21,6 +21,16 @@
         
         <!-- Button test -->
         <button class="button-box">button test</button>
+
+        <!-- Pixel text block shadow test -->
+        <div class="pixel-text-block">
+            <h1 class="uni">Pixel text block test.</h1>
+        </div>
+
+        <!-- Pixel image block test -->
+        <div class="pixel-image-block">
+            <img src="images\Viovyx logo.png" width="300px" />
+        </div>
     </body>
     
     <footer>
