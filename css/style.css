@@ -9,30 +9,15 @@
 *{
     background-color: var(--color--background);
     color: var(--color--foreground);
-    margin: 10px;
-    line-height: 40px;
-}
-
-/* Links style */
-a:where(:not(.button-box)) {
-    color: var(--color--foreground);
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    text-decoration-thickness: 1px;
-    font-family: mono-reg;
-}
-a:where(:not(.button-box)):hover {
-    text-decoration: underline dotted;
-}
-a:where(:not(.button-box)):active {
-    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1em;
 }
 
 /* Info text */
 .wip-info {
     background-color: #ffcc00;
     padding: 10px;
-    margin: -20px;
     margin-bottom: 10px;
     text-align: center;
     font-family: mono-med;
@@ -50,30 +35,143 @@ a.wip-info:hover {
     color: white;
 }
 
-/* Tests for fonts */
+/* Site header */
+.header{
+    line-height: 60px;
+}
+div.header {
+    font-family: uni-05_53;
+    font-weight: 400;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+img.header{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+a.header {
+    margin-right: 15px;
+    font-family: uni-05_53;
+}
+.header-title {
+    font-family:uni-05_53;
+    font-size:30px;
+    margin-left:15px;
+    margin-top:10px;
+    text-decoration:none;
+}
+.header-links {
+    flex-grow: 1;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+/* Body middle text */
+div.body-text {
+    text-align: center;
+    margin-top: 150px;
+}
+h1.body-text {
+    font-family: mono-med;
+    line-height: 50px;
+}
+h2.body-text {
+    font-family: mono-light;
+    line-height: 50px;
+}
+
+/* Footer */
+.footer {
+    position: absolute;
+    margin-bottom: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+p.footer {
+    text-align: center;
+}
+
+/* Test page */
+.test-page {
+    text-align: center;
+    margin-top: 150px;
+}
+h1.test-text {
+    font-family: mono-med;
+}
+h2.test-text {
+    font-family: mono-light;
+    margin-top: 30px;
+}
+
+/* Fonts */
 .uni {
     font-family: uni-05_53;
+    margin-top: 20px;
 }
 .mono-reg {
     font-family: mono-reg;
+    margin-top: 20px;
 }
 .mono-ita {
     font-family: mono-ita;
+    margin-top: 20px;
 }
 .mono-light {
     font-family: mono-light;
+    margin-top: 20px;
 }
 .mono-light-ita {
     font-family: mono-light-ita;
+    margin-top: 20px;
 }
 .mono-med {
     font-family: mono-med;
+    margin-top: 20px;
 }
 .mono-med-ita{
     font-family: mono-med-ita;
+    margin-top: 20px;
 }
 
-/* Test for button */
+/* Pixel text block test */
+.pixel-text-block {
+    box-shadow: var(--boxshadow);
+    border-radius: 0;
+    border-color: var(--color--primary);
+    border-width: 2px;
+    border-style: solid;
+    font-family: uni-05_53;
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+}
+div.pixel-text-block {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Pixel image block test */
+.pixel-image-block {
+    box-shadow: var(--boxshadow);
+    border-radius: 0;
+    border-color: var(--color--primary);
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+}
+
+/* Button style */
 .button-box {
     background-color: var(--color--foreground);
     border-radius: 0;
@@ -106,42 +204,17 @@ a.wip-info:hover {
     top: 7px;
 }
 
-/* Pixel text block test */
-.pixel-text-block {
-    box-shadow: var(--boxshadow);
-    border-radius: 0;
-    border-color: var(--color--primary);
-    border-width: 2px;
-    border-style: solid;
-    margin-top: 20px;
-    font-family: uni-05_53;
-    display: inline-block;
-    padding-top: 10px;
-    padding-right: 25px;
-    padding-bottom: 15px;
-    padding-left: 25px;
+/* Links style */
+a:where(:not(.button-box)) {
+    color: var(--color--foreground);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+    font-family: mono-reg;
 }
-
-/* Pixel image block test */
-.pixel-image-block {
-    box-shadow: var(--boxshadow);
-    border-radius: 0;
-    border-color: var(--color--primary);
-    border-width: 2px;
-    border-style: solid;
-    display: inline-block;
-    margin-top: 20px;
+a:where(:not(.button-box)):hover {
+    text-decoration: underline dotted;
 }
-
-/* Site header */
-.header {
-    font-family: uni-05_53;
-    text-align: center;
-    box-shadow: var(--boxshadow);
-    border-radius: 0;
-    border-color: var(--color--primary);
-    border-width: 2px;
-    border-style: solid;
-    line-height: 20px;
-    padding-bottom: 10px;
+a:where(:not(.button-box)):active {
+    text-decoration: none;
 }

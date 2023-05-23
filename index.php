@@ -5,18 +5,21 @@
         <title>Viovyx</title>
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         <link href="css/fonts.css" rel="stylesheet" type="text/css" />
-        <!-- Info text -->
-        <?php include 'templates/info-text.php';?>
-        
-        <!-- Site header -->
-        <?php include 'templates/header.php';?>
+        <!-- Header -->
+        <?php include(dirname(__FILE__)."/templates/header.php");?>
     </head>
 
     <body>
-        <!-- Tests -->
-        <?php include 'templates/tests.php';?>
+        <!-- Body middle text -->
+        <div class="body-text">
+            <h1 class="body-text">Welcome to Viovyx's site!</h1>
+            <h2 class="body-text">This site is brand new and still in development.</h2>
+            <h2 class="body-text">You can view the progress of this site <a href="https://github.com/Viovyx/viovyx.com" target="_blank">here</a>!</h2>
+        </div>
     </body>
     
     <footer>
+        <!-- Footer -->
+        <?php include(dirname(__FILE__)."/templates/footer.php");?>
     </footer>
 </html>

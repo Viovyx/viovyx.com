@@ -1,1 +1,0 @@
-<h2 class="wip-info">!WIP site, view the progress of this site <a href="https://github.com/Viovyx/viovyx.com" target="_blank" class="wip-info">here</a>!</h2>
