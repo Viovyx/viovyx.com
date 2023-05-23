@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <title>Viovyx</title>
-        <link href="../css/style.css" rel="stylesheet" type="text/css" />
-        <link href="../css/fonts.css" rel="stylesheet" type="text/css" />
-        <!-- Header -->
-        <?php include(dirname(__FILE__)."/../templates/header.php");?>
+        <!-- Head -->
+        <?php include(dirname(__FILE__)."/../templates/head.php");?>
     </head>
 
     <body>
