@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Viovyx</title>
-        <link rel="icon" href="images/favicon.ico" />
+        <link rel="icon" type="image/png" href="images/favicon.png" />
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         <link href="css/fonts.css" rel="stylesheet" type="text/css" />
         <!-- Header -->
