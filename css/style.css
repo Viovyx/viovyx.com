@@ -108,3 +108,17 @@ a.wip-info:hover {
     display: inline-block;
     margin-top: 20px;
 }
+
+/* Site header */
+.header {
+    font-family: uni-05_53;
+    text-align: center;
+    box-shadow: var(--boxshadow);
+    border-radius: 0;
+    border-color: var(--color--primary);
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 20px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
