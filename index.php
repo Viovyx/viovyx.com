@@ -6,15 +6,15 @@
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         <link href="css/fonts.css" rel="stylesheet" type="text/css" />
         <!-- Info text -->
-        <?php include 'templates\info-text.php';?>
+        <?php include 'templates/info-text.php';?>
         
         <!-- Site header -->
-        <?php include 'templates\header.php';?>
+        <?php include 'templates/header.php';?>
     </head>
 
     <body>
         <!-- Tests -->
-        <?php include 'templates\tests.php';?>
+        <?php include 'templates/tests.php';?>
     </body>
     
     <footer>
