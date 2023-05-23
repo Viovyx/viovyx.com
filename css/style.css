@@ -9,13 +9,31 @@
 *{
     background-color: var(--color--background);
     color: var(--color--foreground);
+    margin: 10px;
+    line-height: 40px;
+}
+
+/* Links style */
+a:where(:not(.button-box)) {
+    color: var(--color--foreground);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+    font-family: mono-reg;
+}
+a:where(:not(.button-box)):hover {
+    text-decoration: underline dotted;
+}
+a:where(:not(.button-box)):active {
+    text-decoration: none;
 }
 
 /* Info text */
 .wip-info {
     background-color: #ffcc00;
-    padding: 20px;
-    margin: -8px;
+    padding: 10px;
+    margin: -20px;
+    margin-bottom: 10px;
     text-align: center;
     font-family: mono-med;
     color: var(--color--background);
@@ -67,13 +85,14 @@ a.wip-info:hover {
     font-size: 1rem;
     font-style: normal;
     line-height: 1.7;
-    padding-top: calc(0.75em - 2px);
-    padding-right: calc(1.5em - 2px);
-    padding-bottom: calc(0.75em - 2px);
-    padding-left: calc(1.5em - 2px);
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-left: 25px;
     box-shadow: var(--boxshadow);
     text-transform: uppercase;
     font-weight: bold;
+    text-decoration: none;
 }
 .button-box:hover {
     background-color: var(--color--background);
@@ -82,6 +101,9 @@ a.wip-info:hover {
 }
 .button-box:active {
     box-shadow: none;
+    position: relative;
+    left: 7px;
+    top: 7px;
 }
 
 /* Pixel text block test */
@@ -91,11 +113,13 @@ a.wip-info:hover {
     border-color: var(--color--primary);
     border-width: 2px;
     border-style: solid;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 0px;
-    padding-bottom: 8px;
     margin-top: 20px;
+    font-family: uni-05_53;
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-left: 25px;
 }
 
 /* Pixel image block test */
@@ -118,7 +142,6 @@ a.wip-info:hover {
     border-color: var(--color--primary);
     border-width: 2px;
     border-style: solid;
-    margin-top: 20px;
     line-height: 20px;
     padding-bottom: 10px;
 }
