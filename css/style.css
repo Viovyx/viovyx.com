@@ -191,7 +191,6 @@ div.pixel-text-block {
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
-    margin-top: 20px;
 }
 .button-box:hover {
     background-color: var(--color--background);
