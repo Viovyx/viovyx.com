@@ -97,17 +97,17 @@ p.footer {
     text-align: center;
 }
 
-/* Test page */
-.test-page {
+/* body */
+.body {
     text-align: center;
     margin-top: 150px;
 }
-h1.test-text {
+h1.body-text {
     font-family: mono-med;
 }
-h2.test-text {
+h2.body-text {
     font-family: mono-light;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 /* Fonts */
@@ -191,6 +191,11 @@ div.pixel-text-block {
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
+    cursor: pointer;
+    display: block;
+    margin-top: 50px;
+    margin-left: 800px;
+    margin-right: 800px;
 }
 .button-box:hover {
     background-color: var(--color--background);
@@ -203,6 +208,9 @@ div.pixel-text-block {
     left: 7px;
     top: 7px;
 }
+
+/* Socials button style */
+
 
 /* Links style */
 a:where(:not(.button-box)) {

@@ -7,10 +7,10 @@
 
     <body>
         <!-- Body middle text -->
-        <div class="body-text">
+        <div class="body">
             <h1 class="body-text">Welcome to Viovyx's site!</h1>
             <h2 class="body-text">This site is brand new and still in development.</h2>
-            <h2 class="body-text">You can view the progress of this site <a href="https://github.com/Viovyx/viovyx.com" target="_blank">here</a>!</h2>
+            <h2 class="body-text">You can view the progress of this site <a href="https://github.com/Viovyx/viovyx.com" target="_blank">here</a> and my socials <a href="/socials">here</a>!</h2>
         </div>
     </body>
     
