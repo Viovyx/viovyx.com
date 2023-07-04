@@ -1,6 +1,6 @@
 <meta charset="UTF-8">
 <title>Viovyx</title>
-<link rel="icon" type="image/png" href="images/favicon.png" />
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16" />
 <link href="/css/style.css" rel="stylesheet" type="text/css" />
 <link href="/css/fonts.css" rel="stylesheet" type="text/css" />
 
