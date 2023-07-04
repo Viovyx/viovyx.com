@@ -23,7 +23,7 @@
                 </a>
 
                 <!-- wip -->
-                <a class="project-item">
+                <a href="https://open.spotify.com/track/22zw6m2O6LoD3mVEcCUwiF?si=48b77f94bd5c4f06" target="_blank"class="project-item">
                     <img src="/images/bs_maps/Friesenjung (Sped Up).jpg" width="300px" height="auto">
                     <p class="project-item-text" id="song-time" >2:07</p>
                     <div class="song-info">
@@ -33,7 +33,7 @@
                     <h4 class="project-status">status <span class="status-wip"></span></h4>
                 </a>
 
-                <a class="project-item">
+                <a href="https://open.spotify.com/track/29K9XCDx9IDpyGpKmoM5VJ?si=7ff99376d2954e99" target="_blank" class="project-item">
                     <img src="/images/bs_maps/ERROR.jpg" width="300px" height="auto">
                     <p class="project-item-text" id="song-time" >2:45</p>
                     <div class="song-info">
@@ -43,7 +43,7 @@
                     <h4 class="project-status">status <span class="status-wip"></span></h4>
                 </a>
 
-                <a class="project-item">
+                <a href="https://open.spotify.com/track/0hIDcUm3mJEn4gNo2ocLM5?si=1e132fdd0c9b4d9d" target="_blank" class="project-item">
                     <img src="/images/bs_maps/Meltdown.jpg" width="300px" height="auto">
                     <p class="project-item-text" id="song-time" >2:33</p>
                     <div class="song-info">
@@ -54,7 +54,7 @@
                 </a>
 
                 <!-- Dropped -->
-                <a class="project-item">
+                <a href="https://open.spotify.com/track/1lpd8zLCBXv1a4uddGSfvC?si=df486236022b46e4" target="_blank" class="project-item">
                     <img src="/images/bs_maps/Kiss You.jpg" width="300px" height="auto">
                     <p class="project-item-text" id="song-time" >2:40</p>
                     <div class="song-info">
@@ -64,7 +64,7 @@
                     <h4 class="project-status">status <span class="status-dropped"></span></h4>
                 </a>
 
-                <a class="project-item">
+                <a href="https://open.spotify.com/track/6W947Bfx5AixTRA6a0dorj?si=5562e51d4b424b58" target="_blank" class="project-item">
                     <img src="/images/bs_maps/VTUBERS.jpg" width="300px" height="auto">
                     <p class="project-item-text" id="song-time" >2:45</p>
                     <div class="song-info">
