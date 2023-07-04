@@ -7,11 +7,16 @@
 
 /* Site wide style */
 *{
-    background-color: var(--color--background);
-    color: var(--color--foreground);
     margin: 0px;
     padding: 0px;
     line-height: 1em;
+
+    /* outline: red solid 1px; */
+}
+
+body {
+    background-color: var(--color--background);
+    color: var(--color--foreground);
 }
 
 /* Info text */
@@ -192,10 +197,10 @@ div.pixel-text-block {
     font-weight: bold;
     text-decoration: none;
     cursor: pointer;
-    display: block;
-    margin-top: 50px;
-    margin-left: 800px;
-    margin-right: 800px;
+    width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 10em;
 }
 .button-box:hover {
     background-color: var(--color--background);
@@ -209,7 +214,14 @@ div.pixel-text-block {
     top: 7px;
 }
 
-/* Socials button style */
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
 
 
 /* Links style */
