@@ -17,6 +17,7 @@
 body {
     background-color: var(--color--background);
     color: var(--color--foreground);
+    min-height: 100%;
 }
 
 /* Info text */
@@ -26,7 +27,6 @@ body {
     margin-bottom: 10px;
     text-align: center;
     font-family: mono-med;
-    color: var(--color--background);
 }
 a.wip-info {
     text-align: unset;
@@ -76,30 +76,17 @@ a.header {
     margin-right: 20px;
 }
 
-/* Body middle text */
-div.body-text {
-    text-align: center;
-    margin-top: 150px;
-}
-h1.body-text {
-    font-family: mono-med;
-    line-height: 50px;
-}
-h2.body-text {
-    font-family: mono-light;
-    line-height: 50px;
-}
-
 /* Footer */
-.footer {
-    position: absolute;
-    margin-bottom: 10px;
+footer {
+    position: sticky;
     bottom: 0;
     left: 0;
-    right: 0;
-}
-p.footer {
     text-align: center;
+    background-color: var(--color--background);
+    width: 100%;
+    height: 2em;
+    padding-top: 1em;
+    margin-top: 5em;
 }
 
 /* body */
@@ -109,10 +96,16 @@ p.footer {
 }
 h1.body-text {
     font-family: mono-med;
+    margin-bottom: 1em;
 }
 h2.body-text {
     font-family: mono-light;
-    margin-top: 10px;
+    margin-top: 1em;
+}
+p.body-text {
+    font-family: mono-reg;
+    margin-top: -1em;
+    margin-bottom: 1em;
 }
 
 /* Fonts */
@@ -234,4 +227,95 @@ a:where(:not(.button-box)):hover {
 }
 a:where(:not(.button-box)):active {
     text-decoration: none;
+}
+
+/* projects page */
+.project-canvas {
+    display: grid;
+    grid-template-columns: 305px 305px 305px;
+    row-gap: 2em;
+    column-gap: 2em;
+    justify-content: center;
+    line-height: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.project-title {
+    font-family: mono-light;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-bottom: 4px dotted var(--color--foreground);
+}
+
+.project-item {
+    border: 2px solid var(--color--primary);
+    box-shadow: var(--boxshadow);
+    background-color: var(--color--foreground);
+    color: var(--color--background);
+    text-decoration: none;
+    position: relative;
+}
+.project-item:hover {
+    text-decoration: none;
+    background-color: var(--color-background);
+    color: var(--color--primary);
+}
+.project-item:active {
+    box-shadow: none;
+    position: relative;
+    left: 7px;
+    top: 7px;
+}
+
+.song-info {
+    font-family: mono-reg;
+    text-align: left;
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+h2.project-item-text {
+    margin-bottom: 0.2em;
+}
+p.project-item-text {
+    font-family: mono-med;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.project-status {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-family: mono-light;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+.status-done {
+    height: 20px;
+    width: 20px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: -0.3em;
+}
+.status-wip {
+    height: 20px;
+    width: 20px;
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: -0.3em;
+}
+.status-dropped {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: -0.3em;
 }

@@ -11,6 +11,7 @@
         <a class="header-title" href="/">Viovyx</a>
         <div>
             <a class="header" href="/socials">socials</a>
+            <a class="header" href="/projects">projects</a>
         </div>
     </div>
 </div>

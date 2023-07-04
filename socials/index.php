@@ -15,6 +15,8 @@
                 <a class="button-box" href="https://github.com/Viovyx" target="_blank">github</a>
                 <a class="button-box" href="https://steamcommunity.com/id/Viovyx/" target="_blank">steam</a>
                 <a class="button-box" href="https://discordapp.com/users/431093546561568779" target="_blank">discord</a>
+                <a class="button-box" href="https://scoresaber.com/u/76561199206204757" target="_blank">scoresaber</a>
+                <a class="button-box" href="https://www.beatleader.xyz/u/76561199206204757" target="_blank">beatleader</a>
             </div>
         </div>
     </body>
