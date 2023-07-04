@@ -189,18 +189,16 @@ div.pixel-text-block {
     font-style: normal;
     line-height: 1.7;
     padding-top: 10px;
-    padding-right: 25px;
     padding-bottom: 15px;
-    padding-left: 25px;
     box-shadow: var(--boxshadow);
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
     cursor: pointer;
-    width: auto;
     padding-left: 10%;
     padding-right: 10%;
     width: 10em;
+    min-width: fit-content;
 }
 .button-box:hover {
     background-color: var(--color--background);
