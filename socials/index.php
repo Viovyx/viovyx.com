@@ -12,6 +12,9 @@
                 <a class="button-box" href="https://www.twitch.tv/viovyx" target="_blank">twitch</a>
                 <a class="button-box" href="https://www.tiktok.com/@viovyx" target="_blank">tiktok</a>
                 <a class="button-box" href="https://www.youtube.com/@viovyx" target="_blank">youtube</a>
+                <a class="button-box" href="https://github.com/Viovyx" target="_blank">github</a>
+                <a class="button-box" href="https://steamcommunity.com/id/Viovyx/" target="_blank">steam</a>
+                <a class="button-box" href="https://discordapp.com/users/431093546561568779" target="_blank">discord</a>
             </div>
         </div>
     </body>

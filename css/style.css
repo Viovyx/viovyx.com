@@ -221,7 +221,6 @@ div.pixel-text-block {
     margin-top: 20px;
 }
 
-
 /* Links style */
 a:where(:not(.button-box)) {
     color: var(--color--foreground);
