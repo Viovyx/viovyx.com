@@ -23,6 +23,16 @@
                 </a>
 
                 <!-- wip -->
+                <a href="https://open.spotify.com/track/1DmW5Ep6ywYwxc2HMT5BG6" target="_blank"class="project-item">
+                    <img src="/images/bs_maps/tattoo.jpg" width="300px" height="auto">
+                    <p class="project-item-text" id="song-time" >3:05</p>
+                    <div class="song-info">
+                        <h2 class="project-item-text" id="song-title" >Tattoo</h2>
+                        <h3 class="project-item-text" id="song-artist" >Loreen</h3>
+                    </div>
+                    <h4 class="project-status">status <span class="status-wip"></span></h4>
+                </a>
+
                 <a href="https://open.spotify.com/track/22zw6m2O6LoD3mVEcCUwiF?si=48b77f94bd5c4f06" target="_blank"class="project-item">
                     <img src="/images/bs_maps/Friesenjung (Sped Up).jpg" width="300px" height="auto">
                     <p class="project-item-text" id="song-time" >2:07</p>
