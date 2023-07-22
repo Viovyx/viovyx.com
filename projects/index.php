@@ -22,6 +22,16 @@
                     <h4 class="project-status">status <span class="status-done"></span></h4>
                 </a>
 
+                <a href="https://beatsaver.com/maps/" target="_blank" class="project-item">
+                    <img src="/images/bs_maps/pinguindans.jpg" width="300px" height="auto">
+                    <p class="project-item-text" id="song-time" >3:04</p>
+                    <div class="song-info">
+                        <h2 class="project-item-text" id="song-title" >Pinguïndans</h2>
+                        <h3 class="project-item-text" id="song-artist" >Schiffie & Co</h3>
+                    </div>
+                    <h4 class="project-status">status <span class="status-done"></span></h4>
+                </a>
+
                 <!-- wip -->
                 <a href="https://open.spotify.com/track/1DmW5Ep6ywYwxc2HMT5BG6" target="_blank"class="project-item">
                     <img src="/images/bs_maps/tattoo.jpg" width="300px" height="auto">
