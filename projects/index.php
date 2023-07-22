@@ -12,22 +12,22 @@
             <h2 class="project-title">Beat Saber Maps</h2>
             <div class="project-canvas">
                 <!-- Done -->
-                <a href="https://beatsaver.com/maps/33902" target="_blank" class="project-item">
-                    <img src="/images/bs_maps/Hate.jpg" width="300px" height="auto">
-                    <p class="project-item-text" id="song-time" >2:17</p>
-                    <div class="song-info">
-                        <h2 class="project-item-text" id="song-title" >Hate.</h2>
-                        <h3 class="project-item-text" id="song-artist" >ThxSoMch</h3>
-                    </div>
-                    <h4 class="project-status">status <span class="status-done"></span></h4>
-                </a>
-
                 <a href="https://beatsaver.com/maps/" target="_blank" class="project-item">
                     <img src="/images/bs_maps/pinguindans.jpg" width="300px" height="auto">
                     <p class="project-item-text" id="song-time" >3:04</p>
                     <div class="song-info">
                         <h2 class="project-item-text" id="song-title" >Pinguïndans</h2>
                         <h3 class="project-item-text" id="song-artist" >Schiffie & Co</h3>
+                    </div>
+                    <h4 class="project-status">status <span class="status-done"></span></h4>
+                </a>
+
+                <a href="https://beatsaver.com/maps/33902" target="_blank" class="project-item">
+                    <img src="/images/bs_maps/Hate.jpg" width="300px" height="auto">
+                    <p class="project-item-text" id="song-time" >2:17</p>
+                    <div class="song-info">
+                        <h2 class="project-item-text" id="song-title" >Hate.</h2>
+                        <h3 class="project-item-text" id="song-artist" >ThxSoMch</h3>
                     </div>
                     <h4 class="project-status">status <span class="status-done"></span></h4>
                 </a>
