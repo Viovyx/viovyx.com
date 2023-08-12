@@ -278,12 +278,12 @@ a:where(:not(.button-box)):active {
     margin-bottom: 2em;
 }
 h2.project-item-text {
+    margin-top: 0.5em;
     margin-bottom: 0.2em;
 }
 p.project-item-text {
     font-family: mono-med;
     text-align: center;
-    margin-bottom: 0.5em;
 }
 
 .project-status {

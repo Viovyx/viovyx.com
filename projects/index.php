@@ -33,47 +33,37 @@
                 </a>
 
                 <!-- wip -->
-                <a href="https://open.spotify.com/track/1DmW5Ep6ywYwxc2HMT5BG6" target="_blank"class="project-item">
-                    <img src="/images/bs_maps/tattoo.jpg" width="300px" height="auto">
-                    <p class="project-item-text" id="song-time" >3:05</p>
+                <a href="https://open.spotify.com/track/2Z5wXgysowvzl0nKGNGU0t?si=d196850eeb1a48df" target="_blank"class="project-item">
+                    <img src="/images/bs_maps/out-of-my-league.jpg" width="300px" height="auto">
+                    <p class="project-item-text" id="song-time" >3:30</p>
                     <div class="song-info">
-                        <h2 class="project-item-text" id="song-title" >Tattoo</h2>
-                        <h3 class="project-item-text" id="song-artist" >Loreen</h3>
+                        <h2 class="project-item-text" id="song-title" >Out of My League</h2>
+                        <h3 class="project-item-text" id="song-artist" >Fitz and The Tantrums</h3>
                     </div>
                     <h4 class="project-status">status <span class="status-wip"></span></h4>
                 </a>
 
-                <a href="https://open.spotify.com/track/22zw6m2O6LoD3mVEcCUwiF?si=48b77f94bd5c4f06" target="_blank"class="project-item">
-                    <img src="/images/bs_maps/Friesenjung (Sped Up).jpg" width="300px" height="auto">
-                    <p class="project-item-text" id="song-time" >2:07</p>
+                <a href="https://open.spotify.com/track/0zo4aX57COch7Wh3NRImTM?si=a4c93e483a154156" target="_blank"class="project-item">
+                    <img src="/images/bs_maps/heartbeat.jpg" width="300px" height="auto">
+                    <p class="project-item-text" id="song-time" >4:31</p>
                     <div class="song-info">
-                        <h2 class="project-item-text" id="song-title" >Friesenjung (Sped Up)</h2>
-                        <h3 class="project-item-text" id="song-artist" >Vieze Asbak, Joost, Ski Aggu</h3>
+                        <h2 class="project-item-text" id="song-title" >Heartbeat</h2>
+                        <h3 class="project-item-text" id="song-artist" >Childish Gambino</h3>
                     </div>
                     <h4 class="project-status">status <span class="status-wip"></span></h4>
                 </a>
 
-                <a href="https://open.spotify.com/track/29K9XCDx9IDpyGpKmoM5VJ?si=7ff99376d2954e99" target="_blank" class="project-item">
-                    <img src="/images/bs_maps/ERROR.jpg" width="300px" height="auto">
-                    <p class="project-item-text" id="song-time" >2:45</p>
+                <a href="https://open.spotify.com/track/5i1ckaduJ5lMO5wRawsuMp?si=9c741f47de144be5" target="_blank" class="project-item">
+                    <img src="/images/bs_maps/ava.jpg" width="300px" height="auto">
+                    <p class="project-item-text" id="song-time" >3:59</p>
                     <div class="song-info">
-                        <h2 class="project-item-text" id="song-title" >ERROR</h2>
-                        <h3 class="project-item-text" id="song-artist" >ROMANTICA</h3>
+                        <h2 class="project-item-text" id="song-title" >Ava</h2>
+                        <h3 class="project-item-text" id="song-artist" >Famy</h3>
                     </div>
                     <h4 class="project-status">status <span class="status-wip"></span></h4>
                 </a>
 
-                <a href="https://open.spotify.com/track/0hIDcUm3mJEn4gNo2ocLM5?si=1e132fdd0c9b4d9d" target="_blank" class="project-item">
-                    <img src="/images/bs_maps/Meltdown.jpg" width="300px" height="auto">
-                    <p class="project-item-text" id="song-time" >2:33</p>
-                    <div class="song-info">
-                        <h2 class="project-item-text" id="song-title" >Meltdown</h2>
-                        <h3 class="project-item-text" id="song-artist" >Niall Horan</h3>
-                    </div>
-                    <h4 class="project-status">status <span class="status-wip"></span></h4>
-                </a>
-
-                <!-- Dropped -->
+                <!-- Dropped
                 <a href="https://open.spotify.com/track/1lpd8zLCBXv1a4uddGSfvC?si=df486236022b46e4" target="_blank" class="project-item">
                     <img src="/images/bs_maps/Kiss You.jpg" width="300px" height="auto">
                     <p class="project-item-text" id="song-time" >2:40</p>
@@ -92,6 +82,42 @@
                         <h3 class="project-item-text" id="song-artist" >Constera</h3>
                     </div>
                     <h4 class="project-status">status <span class="status-dropped"></span></h4>
+                </a> -->
+            </div>
+
+            <h2 class="project-title">Wallpaper Engine</h2>
+            <div class="project-canvas">
+                <!-- Done -->
+                <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3018766025" target="_blank" class="project-item">
+                    <img src="/images/wallpapers/yayoi-forest.gif" width="300px" height="auto">
+                    <div class="song-info">
+                        <h2 class="project-item-text" id="wallpaper-title" >Yayoi Forest</h2>
+                    </div>
+                    <h4 class="project-status">status <span class="status-done"></span></h4>
+                </a>
+
+                <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3018762115" target="_blank" class="project-item">
+                    <img src="/images/wallpapers/moonlight-solitude.gif" width="300px" height="auto">
+                    <div class="song-info">
+                        <h2 class="project-item-text" id="wallpaper-title" >Moonlight Solitude</h2>
+                    </div>
+                    <h4 class="project-status">status <span class="status-done"></span></h4>
+                </a>
+
+                <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3018751934" target="_blank" class="project-item">
+                    <img src="/images/wallpapers/ship-in-clouds.gif" width="300px" height="auto">
+                    <div class="song-info">
+                        <h2 class="project-item-text" id="wallpaper-title" >Ship in Clouds</h2>
+                    </div>
+                    <h4 class="project-status">status <span class="status-done"></span></h4>
+                </a>
+
+                <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3018743799" target="_blank" class="project-item">
+                    <img src="/images/wallpapers/amber-glade.gif" width="300px" height="auto">
+                    <div class="song-info">
+                        <h2 class="project-item-text" id="wallpaper-title" >Amber Glade</h2>
+                    </div>
+                    <h4 class="project-status">status <span class="status-done"></span></h4>
                 </a>
             </div>
 
@@ -102,7 +128,7 @@
                     <img src="/images/Viovyx logo.png" width="300px" height="auto">
                     <div class="song-info">
                         <h2 class="project-item-text" id="website-title" >viovyx.com</h2>
-                        <h3 class="project-item-text" id="song-artist" >My main website that you're on right now.</h3>
+                        <h3 class="project-item-text" id="website-description" >My main website that you're on right now.</h3>
                     </div>
                     <h4 class="project-status">status <span class="status-wip"></span></h4>
                 </a>
