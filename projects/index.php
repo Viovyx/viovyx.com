@@ -63,6 +63,16 @@
                     <h4 class="project-status">status <span class="status-wip"></span></h4>
                 </a>
 
+                <a href="https://open.spotify.com/track/4mn5HdatHKN7iFGDes9G8i?si=d294dd7a71964aaf" target="_blank" class="project-item">
+                    <img src="/images/bs_maps/whos-ready-for-tomorrow.jpg" width="300px" height="auto">
+                    <p class="project-item-text" id="song-time" >1:57</p>
+                    <div class="song-info">
+                        <h2 class="project-item-text" id="song-title" >Who's Ready for Tomorrow</h2>
+                        <h3 class="project-item-text" id="song-artist" >RAT BOY, IBDY</h3>
+                    </div>
+                    <h4 class="project-status">status <span class="status-wip"></span></h4>
+                </a>
+
                 <!-- Dropped
                 <a href="https://open.spotify.com/track/1lpd8zLCBXv1a4uddGSfvC?si=df486236022b46e4" target="_blank" class="project-item">
                     <img src="/images/bs_maps/Kiss You.jpg" width="300px" height="auto">
