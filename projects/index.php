@@ -12,6 +12,16 @@
             <h2 class="project-title">Beat Saber Maps</h2>
             <div class="project-canvas">
                 <!-- Done -->
+                <a href="https://beatsaver.com/maps/34dd4" target="_blank"class="project-item">
+                    <img src="/images/bs_maps/out-of-my-league.jpg" width="300px" height="auto">
+                    <p class="project-item-text" id="song-time" >3:30</p>
+                    <div class="song-info">
+                        <h2 class="project-item-text" id="song-title" >Out of My League</h2>
+                        <h3 class="project-item-text" id="song-artist" >Fitz and The Tantrums</h3>
+                    </div>
+                    <h4 class="project-status">status <span class="status-done"></span></h4>
+                </a>
+
                 <a href="https://beatsaver.com/maps/" target="_blank" class="project-item">
                     <img src="/images/bs_maps/pinguindans.jpg" width="300px" height="auto">
                     <p class="project-item-text" id="song-time" >3:04</p>
@@ -33,16 +43,6 @@
                 </a>
 
                 <!-- wip -->
-                <a href="https://open.spotify.com/track/2Z5wXgysowvzl0nKGNGU0t?si=d196850eeb1a48df" target="_blank"class="project-item">
-                    <img src="/images/bs_maps/out-of-my-league.jpg" width="300px" height="auto">
-                    <p class="project-item-text" id="song-time" >3:30</p>
-                    <div class="song-info">
-                        <h2 class="project-item-text" id="song-title" >Out of My League</h2>
-                        <h3 class="project-item-text" id="song-artist" >Fitz and The Tantrums</h3>
-                    </div>
-                    <h4 class="project-status">status <span class="status-wip"></span></h4>
-                </a>
-
                 <a href="https://open.spotify.com/track/0zo4aX57COch7Wh3NRImTM?si=a4c93e483a154156" target="_blank"class="project-item">
                     <img src="/images/bs_maps/heartbeat.jpg" width="300px" height="auto">
                     <p class="project-item-text" id="song-time" >4:31</p>
