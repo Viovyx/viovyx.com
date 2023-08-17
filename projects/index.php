@@ -8,11 +8,21 @@
     <body>
         <div class="body">
             <h1 class="body-text">My Projects:</h1>
-            <p class="body-text">Don't be suprised if you see a lot of projects that never get published.</p>
+            <p class="body-text">Don't be suprised if you see a lot of projects that never get published, especially Beat Saber maps.</p>
             
             <h2 class="project-title">Beat Saber Maps</h2>
             <div class="project-canvas">
                 <!-- public -->
+                <a href="https://beatsaver.com/maps/34f54" target="_blank" class="project-item">
+                    <img src="/images/bs_maps/whos-ready-for-tomorrow.jpg" width="300px" height="auto">
+                    <p class="project-item-text" id="song-time" >1:57</p>
+                    <div class="song-info">
+                        <h2 class="project-item-text" id="song-title" >Who's Ready for Tomorrow</h2>
+                        <h3 class="project-item-text" id="song-artist" >RAT BOY, IBDY</h3>
+                    </div>
+                    <h4 class="project-status">public <span class="status-public"></span></h4>
+                </a>
+
                 <a href="https://beatsaver.com/maps/34dd4" target="_blank"class="project-item">
                     <img src="/images/bs_maps/out-of-my-league.jpg" width="300px" height="auto">
                     <p class="project-item-text" id="song-time" >3:30</p>
@@ -44,6 +54,16 @@
                 </a>
 
                 <!-- private -->
+                <a href="https://open.spotify.com/track/0pa0joYw7km4PaSPfQ4L0K?si=54e55d71b0654d5f" target="_blank" class="project-item">
+                    <img src="/images/bs_maps/monster.jpg" width="300px" height="auto">
+                    <p class="project-item-text" id="song-time" >4:00</p>
+                    <div class="song-info">
+                        <h2 class="project-item-text" id="song-title" >Monster</h2>
+                        <h3 class="project-item-text" id="song-artist" >Lerion</h3>
+                    </div>
+                    <h4 class="project-status">private <span class="status-private"></span></h4>
+                </a>
+
                 <a href="https://open.spotify.com/track/0zo4aX57COch7Wh3NRImTM?si=a4c93e483a154156" target="_blank"class="project-item">
                     <img src="/images/bs_maps/heartbeat.jpg" width="300px" height="auto">
                     <p class="project-item-text" id="song-time" >4:31</p>
@@ -60,16 +80,6 @@
                     <div class="song-info">
                         <h2 class="project-item-text" id="song-title" >Ava</h2>
                         <h3 class="project-item-text" id="song-artist" >Famy</h3>
-                    </div>
-                    <h4 class="project-status">private <span class="status-private"></span></h4>
-                </a>
-
-                <a href="https://open.spotify.com/track/4mn5HdatHKN7iFGDes9G8i?si=d294dd7a71964aaf" target="_blank" class="project-item">
-                    <img src="/images/bs_maps/whos-ready-for-tomorrow.jpg" width="300px" height="auto">
-                    <p class="project-item-text" id="song-time" >1:57</p>
-                    <div class="song-info">
-                        <h2 class="project-item-text" id="song-title" >Who's Ready for Tomorrow</h2>
-                        <h3 class="project-item-text" id="song-artist" >RAT BOY, IBDY</h3>
                     </div>
                     <h4 class="project-status">private <span class="status-private"></span></h4>
                 </a>
@@ -121,6 +131,16 @@
                         <h3 class="project-item-text" id="website-description" >My main website that you're on right now.</h3>
                     </div>
                     <h4 class="project-status">public <span class="status-public"></span></h4>
+                </a>
+
+                <!-- private -->
+                <a href="https://cloud.viovyx.com" target="_blank" class="project-item">
+                    <img src="/images/nextcloud.jpg" width="300px" height="auto">
+                    <div class="song-info">
+                        <h2 class="project-item-text" id="website-title" >cloud.viovyx.com</h2>
+                        <h3 class="project-item-text" id="website-description" >My own cloud server, created with Nextcloud.</h3>
+                    </div>
+                    <h4 class="project-status">private <span class="status-private"></span></h4>
                 </a>
             </div>
         </div>
