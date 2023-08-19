@@ -281,6 +281,9 @@ h2.project-item-text {
     margin-top: 0.5em;
     margin-bottom: 0.2em;
 }
+h3.project-item-text {
+    line-height: 1.1em;
+}
 p.project-item-text {
     font-family: mono-med;
     text-align: center;

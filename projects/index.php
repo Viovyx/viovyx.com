@@ -142,6 +142,15 @@
                     </div>
                     <h4 class="project-status">private <span class="status-private"></span></h4>
                 </a>
+
+                <a href="https://panel.viovyx.com" target="_blank" class="project-item">
+                    <img src="/images/pterodactyl.png" width="300px" height="auto">
+                    <div class="song-info">
+                        <h2 class="project-item-text" id="website-title" >panel.viovyx.com</h2>
+                        <h3 class="project-item-text" id="website-description" >My own game server management panel, created with Pterodactyl.</h3>
+                    </div>
+                    <h4 class="project-status">private <span class="status-private"></span></h4>
+                </a>                
             </div>
         </div>
     </body>
