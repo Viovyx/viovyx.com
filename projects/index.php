@@ -33,7 +33,7 @@
                     <h4 class="project-status">public <span class="status-public"></span></h4>
                 </a>
 
-                <a href="https://beatsaver.com/maps/" target="_blank" class="project-item">
+                <a href="https://beatsaver.com/maps/34462" target="_blank" class="project-item">
                     <img src="/images/bs_maps/pinguindans.jpg" width="300px" height="auto">
                     <p class="project-item-text" id="song-time" >3:04</p>
                     <div class="song-info">
