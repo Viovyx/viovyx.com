@@ -1,6 +1,4 @@
 # [Viovyx.com](https://viovyx.com)
-The source code of my website. This is still a work in progress and not planned to be done any time soon.
+The source code of my website. This project will probably never have a final version and will keep getting new updates in the future.
 
-This site is currently only made to work on desktop and probably doesn't work properly on mobile yet.
-
-View the full site at [viovyx.com](https://viovyx.com), keep in mind that it's still a WIP.
+View the full site at [https://viovyx.com](https://viovyx.com).

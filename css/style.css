@@ -232,9 +232,9 @@ a:where(:not(.button-box)):active {
 /* projects page */
 .project-canvas {
     display: grid;
-    grid-template-columns: 305px 305px 305px;
+    grid-template-columns: 300px 300px 300px;
     row-gap: 2em;
-    column-gap: 2em;
+    column-gap: 2.3em;
     justify-content: center;
     line-height: 0;
     margin-top: 50px;
@@ -258,6 +258,7 @@ a:where(:not(.button-box)):active {
     color: var(--color--background);
     text-decoration: none;
     position: relative;
+    width: 302px;
 }
 .project-item:hover {
     text-decoration: none;
@@ -278,6 +279,7 @@ a:where(:not(.button-box)):active {
     margin-bottom: 2em;
 }
 h2.project-item-text {
+    font-size: 1.5em;
     margin-top: 0.5em;
     margin-bottom: 0.2em;
 }
@@ -305,6 +307,7 @@ p.project-item-text {
     border-radius: 50%;
     display: inline-block;
     margin-bottom: -0.3em;
+    margin-left: 0.5em;
 }
 .status-private {
     height: 20px;
@@ -313,6 +316,7 @@ p.project-item-text {
     border-radius: 50%;
     display: inline-block;
     margin-bottom: -0.3em;
+    margin-left: 0.5em;
 }
 .status-wip {
     height: 20px;
