@@ -1,7 +1,17 @@
 :root {
-    --color--primary: #e384ff;
-    --color--foreground: #ffa3fd;
-    --color--background: #191825;
+    /* color pallets */
+    --palette1-primary: #e384ff;
+    --palette1-foreground: #ffa3fd;
+    --palette1-background: #191825;
+
+    --palette2-primary: #cacaca;
+    --palette2-foreground: #ffffff;
+    --palette2-background: #000000;
+
+    /* colors */
+    --color--primary: var(--palette1-primary);
+    --color--foreground: var(--palette1-foreground);
+    --color--background: var(--palette1-background);
     --boxshadow: 7px 7px 0px -2px var(--color--background), 7px 7px var(--color--foreground);
 }
 
@@ -203,6 +213,31 @@ div.pixel-text-block {
     position: relative;
     left: 7px;
     top: 7px;
+}
+
+
+.theme-button{
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    padding: 1em;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.5em;
+}
+.theme-button:hover{
+    padding: 1.2em;
+    margin-left: -0.4em;
+}
+
+.theme-button#palette1{
+    background-color: var(--palette1-foreground);
+    border-color: var(--palette1-primary);
+}
+.theme-button#palette2{
+    background-color: var(--palette2-foreground);
+    border-color: var(--palette2-primary);
 }
 
 .social-buttons {

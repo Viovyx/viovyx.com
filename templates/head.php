@@ -12,6 +12,10 @@
         <div>
             <a class="header" href="/socials">socials</a>
             <a class="header" href="/projects">projects</a>
+            <button class="theme-button" id="palette1"></button>
+            <button class="theme-button" id="palette2"></button>
         </div>
     </div>
 </div>
+
+<script src="/scripts/colors.js"></script>
