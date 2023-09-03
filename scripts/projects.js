@@ -1,5 +1,5 @@
 function fetchDataAndDisplay() {
-    fetch('/json/projects.json')
+    fetch('/projects/projects.json')
         .then(response => response.json())
         .then(data => {
             // Access the data and populate the webpage
