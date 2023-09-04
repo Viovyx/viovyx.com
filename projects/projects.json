@@ -1,6 +1,14 @@
 {
     "BS Maps": [
         {
+            "Link": "https://soundcloud.com/hauntinglyhorrible/song-to-keep-myself-from-relapsing",
+            "Image": "https://api.viovyx.com/viovyx.com/img/bs-maps/song-to-keep-myself-from-relapsing.jpg",
+            "Song Length": "1:48",
+            "Title": "song to keep myself from relapsing",
+            "Subtitle": "haunt",
+            "Public": false
+        },
+        {
             "Link": "https://beatsaver.com/maps/34f54",
             "Image": "https://api.viovyx.com/viovyx.com/img/bs-maps/whos-ready-for-tomorrow.jpg",
             "Song Length": "1:57",
