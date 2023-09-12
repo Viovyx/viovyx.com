@@ -11,19 +11,18 @@
             <h1 class="body-text">My Projects:</h1>
             <p class="body-text">Don't be suprised if you see a lot of projects that never get published, especially Beat Saber maps.</p>
             
-            <!-- Add classes to your project sections -->
             <h2 class="project-title">Beat Saber Maps</h2>
-            <div class="project-canvas beat-saber"> <!-- Add the 'beat-saber' class here -->
+            <div class="project-canvas beat-saber">
                 <!-- Individual items will be populated here by JavaScript -->
             </div>
 
             <h2 class="project-title">Wallpaper Engine</h2>
-            <div class="project-canvas wallpapers"> <!-- Add the 'wallpapers' class here -->
+            <div class="project-canvas wallpapers">
                 <!-- Individual items will be populated here by JavaScript -->
             </div>
 
             <h2 class="project-title">Websites</h2>
-            <div class="project-canvas websites"> <!-- Add the 'websites' class here -->
+            <div class="project-canvas websites">
                 <!-- Individual items will be populated here by JavaScript -->
             </div>
         </div>

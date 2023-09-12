@@ -1,6 +1,14 @@
 {
     "BS Maps": [
         {
+            "Link": "https://open.spotify.com/track/3rFHJDslBgt9rHu8p22aFN?si=24a9f1e8f09f44e8",
+            "Image": "https://api.viovyx.com/viovyx.com/img/bs-maps/the-feeling-deluxe-mix.jpg",
+            "Song Length": "3:16",
+            "Title": "The Feeling - Deluxe Mix",
+            "Subtitle": "Lost Frequencies, Andromedik",
+            "Public": false
+        },
+        {
             "Link": "https://beatsaver.com/maps/3592d",
             "Image": "https://api.viovyx.com/viovyx.com/img/bs-maps/song-to-keep-myself-from-relapsing.jpg",
             "Song Length": "1:48",
@@ -14,22 +22,6 @@
             "Song Length": "4:00",
             "Title": "Monster",
             "Subtitle": "Lerion",
-            "Public": false
-        },
-        {
-            "Link": "https://open.spotify.com/track/0zo4aX57COch7Wh3NRImTM?si=a4c93e483a154156",
-            "Image": "https://api.viovyx.com/viovyx.com/img/bs-maps/heartbeat.jpg",
-            "Song Length": "4:31",
-            "Title": "Heartbeat",
-            "Subtitle": "Childish Gambino",
-            "Public": false
-        },
-        {
-            "Link": "https://open.spotify.com/track/5i1ckaduJ5lMO5wRawsuMp?si=9c741f47de144be5",
-            "Image": "https://api.viovyx.com/viovyx.com/img/bs-maps/ava.jpg",
-            "Song Length": "3:59",
-            "Title": "Ava",
-            "Subtitle": "Famy",
             "Public": false
         },
         {
