@@ -1,6 +1,14 @@
 {
     "BS Maps": [
         {
+            "Link": "https://open.spotify.com/track/5rL9LobdwAwFch2J8CiosG?si=c563a14aaeb84b9f",
+            "Image": "https://api.viovyx.com/viovyx.com/img/bs-maps/not-fair.jpg",
+            "Song Length": "2:45",
+            "Title": "Not Fair",
+            "Subtitle": "Niklas Dee, Old Jim, Enny-Mae",
+            "Public": false
+        },
+        {
             "Link": "https://open.spotify.com/track/3rFHJDslBgt9rHu8p22aFN?si=24a9f1e8f09f44e8",
             "Image": "https://api.viovyx.com/viovyx.com/img/bs-maps/the-feeling-deluxe-mix.jpg",
             "Song Length": "3:16",
