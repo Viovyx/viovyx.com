@@ -6,6 +6,7 @@ function fetchDataAndDisplay() {
             const bsMaps = data['BS Maps'];
             const wallpapers = data['Wallpapers'];
             const sites = data['Sites'];
+            const other = data['Other'];
 
             // Function to create a project item element
             function createProjectItem(item) {
@@ -78,6 +79,7 @@ function fetchDataAndDisplay() {
             populateSection(bsMaps, 'beat-saber');
             populateSection(wallpapers, 'wallpapers');
             populateSection(sites, 'websites');
+            populateSection(other, 'other');
         })
         .catch(error => {
             console.error('Error fetching data:', error);

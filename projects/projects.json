@@ -124,5 +124,15 @@
             "Subtitle": "My main website that you're on right now.",
             "Public": true
         }
+    ],
+    "Other": [
+        {
+            "Link": "https://github.com/Viovyx/Python-Mouse",
+            "Image": "https://api.viovyx.com/viovyx.com/img/other/github.jpg",
+            "Song Length": "",
+            "Title": "Python Mouse",
+            "Subtitle": "A game based on Micromouse in Python.",
+            "Public": true
+        }
     ]
 }

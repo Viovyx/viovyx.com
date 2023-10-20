@@ -26,6 +26,11 @@
             <div class="project-canvas websites">
                 <!-- Individual items will be populated here by JavaScript -->
             </div>
+
+            <h2 class="project-title" id="other">Other</h2>
+            <div class="project-canvas other">
+                <!-- Individual items will be populated here by JavaScript -->
+            </div>
         </div>
     </body>
     
