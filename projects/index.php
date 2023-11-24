@@ -9,8 +9,10 @@
     <body>
         <div class="body">
             <h1 class="body-text">My Projects:</h1>
-            <p class="body-text">Don't be suprised if you see a lot of projects that never get published, especially Beat Saber maps.</p>
-            <p class="body-text"><a href="#beat-saber">Beat Saber Maps</a> | <a href="#wallpaper-engine">Wallpaper Engine</a> | <a href="#websites">Websites</a> | <a href="#other">Other</a></p>
+            <p class="body-text">
+                Don't be suprised if you see a lot of projects that never get published, especially Beat Saber maps.<br>
+                <a href="#beat-saber">Beat Saber Maps</a> | <a href="#wallpaper-engine">Wallpaper Engine</a> | <a href="#websites">Websites</a> | <a href="#other">Other</a>
+            </p>
             
             <h2 class="project-title" id="beat-saber">Beat Saber Maps</h2>
             <div class="project-canvas beat-saber">

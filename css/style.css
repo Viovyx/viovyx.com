@@ -111,10 +111,12 @@ h1.body-text {
 h2.body-text {
     font-family: mono-light;
     margin-top: 1em;
+    line-height: 2em;
 }
 p.body-text {
     font-family: mono-reg;
     margin-bottom: 1em;
+    line-height: 2em;
 }
 
 /* Fonts */
@@ -296,7 +298,7 @@ a:where(:not(.button-box)):active {
 }
 .project-item:hover {
     text-decoration: none;
-    background-color: var(--color-background);
+    background-color: var(--color--background);
     color: var(--color--primary);
 }
 .project-item:active {
