@@ -127,6 +127,14 @@
     ],
     "Other": [
         {
+            "Link": "https://github.com/Viovyx/Viobot",
+            "Image": "https://api.viovyx.com/viovyx.com/img/other/github.jpg",
+            "Song Length": "",
+            "Title": "Viobot",
+            "Subtitle": "My own discord bot created 100% in Python.",
+            "Public": true
+        },
+        {
             "Link": "https://github.com/Viovyx/Python-Mouse",
             "Image": "https://api.viovyx.com/viovyx.com/img/other/github.jpg",
             "Song Length": "",
