@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Load CSS -->
+        <link rel="stylesheet" href="/static/css/style.css" />
+        <link
+            rel="stylesheet"
+            href="/static/css/mobile.css"
+            media="screen and (min-width: 200px) and (max-width: 1000px)"
+        />
+        <!-- Load Favicon -->
+        <link type="image/x-icon" href="/static/img/favicon.ico" rel="icon" />
+        <link type="image/x-icon" href="/static/img/favicon.ico" rel="shortcut icon" />
+        <title>Viovyx | 404</title>
+    </head>
+    <body>
+        <div id="header" class="neon-border">{{ header|safe }}</div>
+
+        <div class="background"></div>
+
+        <div class="wrapper-404">
+            <h1 class="neon-text"><b class="neon-text-secondary">404</b> - Page not found.</h1>
+            <p class="sub-text dot-font">Something broke, my bad.</p>
+        </div>
+
+        <div id="footer">{{ footer|safe }}</div>
+    </body>
+</html>

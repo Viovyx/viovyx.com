@@ -1,0 +1,259 @@
+/* Colors */
+@import url("/static/css/colors.css");
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Orbitron:wght@400..900&display=swap");
+
+* {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dot-font {
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "ROND" 0;
+    font-size: 1.5em;
+}
+
+/* Styling */
+* {
+    text-decoration: none;
+    user-select: none;
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+    display: none;
+}
+
+html,
+body {
+    color: var(--copy);
+    width: clamp(50%, 90%, 1000px);
+    margin: auto;
+    margin-top: 0;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.background {
+    background: var(--primary-dark);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -100;
+    --gap: 2em;
+    --line: 2px;
+    --color: rgba(from var(--copy-lighter) r g b / 0.1);
+    background-size: var(--gap) var(--gap);
+    background-image: linear-gradient(
+            -90deg,
+            transparent calc(var(--gap) - var(--line)),
+            var(--color) calc(var(--gap) - var(--line) + 1px),
+            var(--color) var(--gap)
+        ),
+        linear-gradient(
+            0deg,
+            transparent calc(var(--gap) - var(--line)),
+            var(--color) calc(var(--gap) - var(--line) + 1px),
+            var(--color) var(--gap)
+        );
+}
+
+.neon-text,
+.neon-text-secondary,
+.neon-text-hover {
+    color: var(--copy);
+    --color: var(--primary-content);
+    text-shadow: 0 0 7px rgba(from var(--color) r g b / 0.8), 0 0 10px rgba(from var(--color) r g b / 0.7),
+        0 0 21px rgba(from var(--color) r g b / 0.6), 0 0 42px rgba(from var(--color) r g b / 0.5),
+        0 0 82px rgba(from var(--color) r g b / 0.4), 0 0 92px rgba(from var(--color) r g b / 0.3),
+        0 0 102px rgba(from var(--color) r g b / 0.2), 0 0 151px rgba(from var(--color) r g b / 0.1);
+    transition: 0.2s ease;
+}
+
+.neon-text-hover:hover,
+.neon-text-secondary {
+    --color: var(--secondary-content);
+    text-shadow: 0 0 7px rgba(from var(--color) r g b / 0.8), 0 0 10px rgba(from var(--color) r g b / 0.7),
+        0 0 21px rgba(from var(--color) r g b / 0.6), 0 0 42px rgba(from var(--color) r g b / 0.5),
+        0 0 82px rgba(from var(--color) r g b / 0.4), 0 0 92px rgba(from var(--color) r g b / 0.3),
+        0 0 102px rgba(from var(--color) r g b / 0.2), 0 0 151px rgba(from var(--color) r g b / 0.1);
+}
+
+.neon-text-hover:active {
+    text-shadow: 0 0 7px rgba(from var(--secondary-content) r g b / 1),
+        0 0 10px rgba(from var(--secondary-content) r g b / 0.9),
+        0 0 21px rgba(from var(--secondary-content) r g b / 0.8),
+        0 0 42px rgba(from var(--secondary-content) r g b / 0.7),
+        0 0 82px rgba(from var(--secondary-content) r g b / 0.6),
+        0 0 92px rgba(from var(--secondary-content) r g b / 0.5),
+        0 0 102px rgba(from var(--secondary-content) r g b / 0.4),
+        0 0 151px rgba(from var(--secondary-content) r g b / 0.3);
+}
+
+.neon-border,
+.neon-border-hover {
+    box-shadow: 0 0 5px var(--primary-content), 0 0 10px var(--primary-content), 0 0 20px var(--primary-content),
+        inset 0 0 5px var(--primary-content), inset 0 0 10px var(--primary-content);
+    border: 1px solid var(--copy);
+    transition: 0.2s ease;
+    border-radius: 10px;
+    color: var(--copy);
+}
+
+a:hover {
+    text-decoration: underline dashed;
+}
+
+.neon-border-hover:hover {
+    box-shadow: 0 0 5px var(--secondary-content), 0 0 10px var(--secondary-content), 0 0 20px var(--secondary-content),
+        inset 0 0 5px var(--secondary-content), inset 0 0 10px var(--secondary-content);
+    text-decoration: none;
+}
+
+a.neon-border-hover,
+a.neon-border {
+    padding: 10px;
+}
+
+a.neon-border-hover:active {
+    box-shadow: 0 0 10px var(--secondary-content), 0 0 20px var(--secondary-content), 0 0 40px var(--secondary-content),
+        inset 0 0 10px var(--secondary-content), inset 0 0 20px var(--secondary-content);
+}
+
+#header {
+    width: clamp(50%, 90%, 500px);
+    margin: auto;
+    line-height: 2.5em;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.5em;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+#footer {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper-404 {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: -1;
+    flex-direction: column;
+}
+
+.sub-text {
+    color: var(--copy-lighter);
+}
+
+.glowing-text {
+    color: var(--copy);
+    animation-name: glowing-text;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glowing-text {
+    0% {
+        text-shadow: 0 0 7px rgba(from var(--primary-content) r g b / 0.8),
+            0 0 10px rgba(from var(--primary-content) r g b / 0.7),
+            0 0 21px rgba(from var(--primary-content) r g b / 0.6),
+            0 0 42px rgba(from var(--primary-content) r g b / 0.5),
+            0 0 82px rgba(from var(--primary-content) r g b / 0.4),
+            0 0 92px rgba(from var(--primary-content) r g b / 0.3),
+            0 0 102px rgba(from var(--primary-content) r g b / 0.2),
+            0 0 151px rgba(from var(--primary-content) r g b / 0.1);
+    }
+    50% {
+        text-shadow: 0 0 7px rgba(from var(--secondary-content) r g b / 0.8),
+            0 0 10px rgba(from var(--secondary-content) r g b / 0.7),
+            0 0 21px rgba(from var(--secondary-content) r g b / 0.6),
+            0 0 42px rgba(from var(--secondary-content) r g b / 0.5),
+            0 0 82px rgba(from var(--secondary-content) r g b / 0.4),
+            0 0 92px rgba(from var(--secondary-content) r g b / 0.3),
+            0 0 102px rgba(from var(--secondary-content) r g b / 0.2),
+            0 0 151px rgba(from var(--secondary-content) r g b / 0.1);
+    }
+    100% {
+        text-shadow: 0 0 7px rgba(from var(--primary-content) r g b / 0.8),
+            0 0 10px rgba(from var(--primary-content) r g b / 0.7),
+            0 0 21px rgba(from var(--primary-content) r g b / 0.6),
+            0 0 42px rgba(from var(--primary-content) r g b / 0.5),
+            0 0 82px rgba(from var(--primary-content) r g b / 0.4),
+            0 0 92px rgba(from var(--primary-content) r g b / 0.3),
+            0 0 102px rgba(from var(--primary-content) r g b / 0.2),
+            0 0 151px rgba(from var(--primary-content) r g b / 0.1);
+    }
+}
+
+.glowing-border {
+    border: 1px solid var(--copy);
+    transition: 0.2s ease;
+    border-radius: 10px;
+    animation-name: glowing-border;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glowing-border {
+    0% {
+        box-shadow: 0 0 5px var(--primary-content), 0 0 10px var(--primary-content), 0 0 20px var(--primary-content),
+            inset 0 0 5px var(--primary-content), inset 0 0 10px var(--primary-content);
+    }
+    50% {
+        box-shadow: 0 0 5px var(--secondary-content), 0 0 10px var(--secondary-content),
+            0 0 20px var(--secondary-content), inset 0 0 5px var(--secondary-content),
+            inset 0 0 10px var(--secondary-content);
+    }
+    100% {
+        box-shadow: 0 0 5px var(--primary-content), 0 0 10px var(--primary-content), 0 0 20px var(--primary-content),
+            inset 0 0 5px var(--primary-content), inset 0 0 10px var(--primary-content);
+    }
+}
+
+.wrapper-socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.wrapper-socials > a {
+    line-height: 2em;
+    text-align: center;
+    width: clamp(50%, 90%, 500px);
+    font-size: 1.5em;
+}

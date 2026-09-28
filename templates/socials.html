@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Load CSS -->
+        <link rel="stylesheet" href="/static/css/style.css" />
+        <link
+            rel="stylesheet"
+            href="/static/css/mobile.css"
+            media="screen and (min-width: 200px) and (max-width: 1000px)"
+        />
+        <!-- Load Favicon -->
+        <link type="image/x-icon" href="/static/img/favicon.ico" rel="icon" />
+        <link type="image/x-icon" href="/static/img/favicon.ico" rel="shortcut icon" />
+        <title>Viovyx | Socials</title>
+    </head>
+    <body>
+        <div id="header" class="neon-border">{{ header|safe }}</div>
+
+        <div class="background"></div>
+
+        <h1 class="neon-text-secondary">My Socials:</h1>
+
+        <div class="wrapper-socials">
+            <a class="button neon-border-hover neon-text-hover" href="https://github.com/Viovyx" target="_blank"
+                >GitHub</a
+            >
+            <a class="button neon-border-hover neon-text-hover" href="https://www.twitch.tv/viovyx" target="_blank"
+                >Twitch</a
+            >
+            <a class="button neon-border-hover neon-text-hover" href="https://www.tiktok.com/@viovyx" target="_blank"
+                >TikTok</a
+            >
+            <a class="button neon-border-hover neon-text-hover" href="https://www.youtube.com/@viovyx" target="_blank"
+                >YouTube</a
+            >
+            <a
+                class="button neon-border-hover neon-text-hover"
+                href="https://scoresaber.com/u/76561199206204757"
+                target="_blank"
+                >ScoreSaber</a
+            >
+            <a
+                class="button neon-border-hover neon-text-hover"
+                href="https://beatleader.com/u/76561199206204757"
+                target="_blank"
+                >BeatLeader</a
+            >
+        </div>
+
+        <div id="footer">{{ footer|safe }}</div>
+    </body>
+</html>

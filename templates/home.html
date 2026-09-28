@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Load CSS -->
+        <link rel="stylesheet" href="/static/css/style.css" />
+        <link
+            rel="stylesheet"
+            href="/static/css/mobile.css"
+            media="screen and (min-width: 200px) and (max-width: 1000px)"
+        />
+        <!-- Load Favicon -->
+        <link type="image/x-icon" href="/static/img/favicon.ico" rel="icon" />
+        <link type="image/x-icon" href="/static/img/favicon.ico" rel="shortcut icon" />
+        <title>Viovyx | Home</title>
+    </head>
+    <body>
+        <div id="header" class="neon-border">{{ header|safe }}</div>
+
+        <div class="background"></div>
+
+        <h1 class="neon-text">
+            Hii ^-^ I'm
+            <a href="https://github.com/Viovyx" class="glowing-text" target="_blank">@Viovyx</a>!
+        </h1>
+        <p class="dot-font">
+            Welcome to the complete rework of my website.<br />You can view my socials
+            <a href="/socials" class="glowing-text">here</a>.
+        </p>
+        <p class="dot-font">
+            In the future I'll probably showcase some of my project here, for now you can find those on my
+            <a href="https://github.com/Viovyx?tab=repositories" target="_blank" class="glowing-text">GitHub</a>.
+        </p>
+
+        <div id="footer">{{ footer|safe }}</div>
+    </body>
+</html>
